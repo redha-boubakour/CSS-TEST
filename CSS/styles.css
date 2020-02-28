@@ -1,0 +1,33 @@
+#title {
+  color: chartreuse;
+  background: darkblue;
+}
+
+/* Inheritence */
+
+div {
+  font-family: monospace;
+  color: black;
+  border: crimson 3px solid;
+}
+
+p {
+  border: black 3px solid;
+  color: green;
+  font-size: 4rem;
+}
+
+#footer {
+  color: firebrick;
+  background: teal;
+}
+
+/* Class selectors */
+
+.green {
+  color: green;
+}
+
+.red {
+  color: red;
+}
