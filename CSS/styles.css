@@ -4,17 +4,11 @@
 }
 
 /* Inheritence */
-
-div {
-  font-family: monospace;
-  color: black;
-  border: crimson 3px solid;
-}
-
+/* RGBA */
 p {
   border: black 3px solid;
   color: green;
-  font-size: 4rem;
+  font-size: 2em;
 }
 
 #footer {
@@ -30,4 +24,33 @@ p {
 
 .red {
   color: red;
+}
+
+* {
+  margin: 0;
+}
+
+.navbar {
+  background: chartreuse;
+  height: 100px;
+  color: white;
+  font-size: 3rem;
+}
+
+.banner {
+  font-family: monospace;
+  color: black;
+  border: crimson 3px solid;
+  width: 100vw;
+  height: calc(50vh - 100px);
+  background: red;
+}
+
+.header {
+  font-family: monospace;
+  color: black;
+  border: crimson 3px solid;
+  width: 90vw;
+  height: 50vh;
+  background: blue;
 }
